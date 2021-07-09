@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main()  {
-	var a [3]int
+	var a [3]int	// 3个整型元素的数组
 	fmt.Printf("a[0] = %d, a[2] = %d\n", a[0], a[2])
 
 	fmt.Println("========")

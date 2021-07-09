@@ -1,18 +1,15 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-const PI = 3.1415926
+const PI =  3.14159
 
 func main()  {
-	fmt.Printf("PI = %g\n", PI)
-
 	const (
 		YES_VALUE = 1
 		NO_VALUE = 2
 	)
 
+	fmt.Printf("%g\n", PI)
 	fmt.Println(YES_VALUE, NO_VALUE)
 }

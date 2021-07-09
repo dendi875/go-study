@@ -16,7 +16,7 @@ const (
 )
 
 func main()  {
-	arr := [...]string{Zero: "aaa", One: "bbb", Two: "ccc", Three: "ddd", Four: "eee", Five: "fff"}
+	arr := [...]string{Five: "fff", Zero: "aaa", One: "bbb", Two: "ccc", Three: "ddd", Four: "eee"}
 
 	for k,v := range arr {
 		fmt.Printf("%d = %v\n", k, v)

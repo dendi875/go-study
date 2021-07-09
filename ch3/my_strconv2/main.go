@@ -12,7 +12,7 @@ func main() {
 		fmt.Println("Atoi error")
 		os.Exit(1)
 	}
-	b, err := strconv.ParseInt("123", 10, 16)
+	b, err := strconv.ParseInt("123", 10, 16) // 10 进制，int16
 	if err != nil {
 		fmt.Println("ParseInt error")
 		os.Exit(1)

@@ -1,10 +1,11 @@
 package main
 
-type Weekday int
+type Num int
 
 func main()  {
 	const (
-		One Weekday = iota
+		Zero Num = iota
+		One
 		Two
 		Three
 		Four
@@ -13,5 +14,5 @@ func main()  {
 		Seven
 	)
 
-	println(One, Two, Three, Four, Five, Six, Seven)
+	println(Zero, One, Two, Three, Four, Five, Six, Seven)
 }
