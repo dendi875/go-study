@@ -1,0 +1,6 @@
+/.DBStore/*
+/.DS_Store
+/.idea
+/test/*
+/.vscode
+/*.code-workspace
